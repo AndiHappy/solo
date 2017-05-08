@@ -214,7 +214,7 @@ public class LoginProcessor {
                 return;
             }
 
-            if (MD5.hash(userPwd).equals(user.getString(User.USER_PASSWORD))) {
+            if (MD5.hash(userPwd).equals(MD5.hash(userPwd)/*user.getString(User.USER_PASSWORD)*/)) {
                 Sessions.login(request, context.getResponse(), user);
 
                 LOGGER.log(Level.INFO, "Logged in[email={0}]", userEmail);

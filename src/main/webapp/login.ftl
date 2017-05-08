@@ -13,7 +13,7 @@
         <meta name="robots" content="noindex, follow" />
         <meta http-equiv="Window-target" content="_top" />
         <link type="text/css" rel="stylesheet" href="${staticServePath}/css/default-init${miniPostfix}.css?${staticResourceVersion}" charset="utf-8" />
-        <link rel="icon" type="image/png" href="${staticServePath}/favicon.png" />
+        <link rel="icon" type="image/png" href="${staticServePath}/fa.ico" />
     </head>
     <body>
         <div class="wrapper">
