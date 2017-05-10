@@ -1,0 +1,334 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>51/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 08 20:31:13 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9459 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.b3log.solo.processor.CommentProcessorTestCase.addArticleComment()'><b>addArticleComment</b><br>Test class: org.b3log.solo.processor.CommentProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.CommentProcessorTestCase@38082d64</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.console.CategoryConsoleTestCase.addCategory()'><b>addCategory</b><br>Test class: org.b3log.solo.processor.console.CategoryConsoleTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.console.CategoryConsoleTestCase@17550481</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.CommentProcessorTestCase.addPageComment()'><b>addPageComment</b><br>Test class: org.b3log.solo.processor.CommentProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.CommentProcessorTestCase@38082d64</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.FeedProcessorTestCase.blogArticlesAtom()'><b>blogArticlesAtom</b><br>Test class: org.b3log.solo.processor.FeedProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.FeedProcessorTestCase@42d3bd8b</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.SitemapProcessorTestCase.blogArticlesAtom()'><b>blogArticlesAtom</b><br>Test class: org.b3log.solo.processor.SitemapProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.SitemapProcessorTestCase@13fee20c</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.FeedProcessorTestCase.blogArticlesRSS()'><b>blogArticlesRSS</b><br>Test class: org.b3log.solo.processor.FeedProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.FeedProcessorTestCase@42d3bd8b</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.LoginProcessorTestCase.forgot()'><b>forgot</b><br>Test class: org.b3log.solo.processor.LoginProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.LoginProcessorTestCase@3b81a1bc</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.CaptchaProcessorTestCase.get()'><b>get</b><br>Test class: org.b3log.solo.processor.CaptchaProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.CaptchaProcessorTestCase@2ed94a8b</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.getArchivesArticlesByPage()'><b>getArchivesArticlesByPage</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.getArticleContent()'><b>getArticleContent</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.getArticlesByPage()'><b>getArticlesByPage</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.BlogProcessorTestCase.getArticlesTags()'><b>getArticlesTags</b><br>Test class: org.b3log.solo.processor.BlogProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.BlogProcessorTestCase@73f792cf</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.getAuthorsArticlesByPage()'><b>getAuthorsArticlesByPage</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.BlogProcessorTestCase.getBlogInfo()'><b>getBlogInfo</b><br>Test class: org.b3log.solo.processor.BlogProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.BlogProcessorTestCase@73f792cf</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.BlogProcessorTestCase.getInterestTags()'><b>getInterestTags</b><br>Test class: org.b3log.solo.processor.BlogProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.BlogProcessorTestCase@73f792cf</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.getRandomArticles()'><b>getRandomArticles</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.getRelevantArticles()'><b>getRelevantArticles</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.getTagArticlesByPage()'><b>getTagArticlesByPage</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.BlogProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.BlogProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.BlogProcessorTestCase@73f792cf</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.CaptchaProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.CaptchaProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.CaptchaProcessorTestCase@2ed94a8b</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.CommentProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.CommentProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.CommentProcessorTestCase@38082d64</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ErrorProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.ErrorProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ErrorProcessorTestCase@dfd3711</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.FeedProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.FeedProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.FeedProcessorTestCase@42d3bd8b</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.IndexProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.IndexProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.IndexProcessorTestCase@26ba2a48</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.LoginProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.LoginProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.LoginProcessorTestCase@3b81a1bc</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.PageProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.PageProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.PageProcessorTestCase@64616ca2</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.SitemapProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.SitemapProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.SitemapProcessorTestCase@13fee20c</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.StatProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.StatProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.StatProcessorTestCase@4e04a765</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.TagProcessorTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.TagProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.TagProcessorTestCase@783e6358</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.console.CategoryConsoleTestCase.init()'><b>init</b><br>Test class: org.b3log.solo.processor.console.CategoryConsoleTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.console.CategoryConsoleTestCase@17550481</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.InitProcessorTestCase.initSolo()'><b>initSolo</b><br>Test class: org.b3log.solo.processor.InitProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.InitProcessorTestCase@5f2050f6</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.LoginProcessorTestCase.login()'><b>login</b><br>Test class: org.b3log.solo.processor.LoginProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.LoginProcessorTestCase@3b81a1bc</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.LoginProcessorTestCase.logout()'><b>logout</b><br>Test class: org.b3log.solo.processor.LoginProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.LoginProcessorTestCase@3b81a1bc</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.IndexProcessorTestCase.register()'><b>register</b><br>Test class: org.b3log.solo.processor.IndexProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.IndexProcessorTestCase@26ba2a48</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.showArchiveArticles()'><b>showArchiveArticles</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.showArticle()'><b>showArticle</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.showArticlePwdForm()'><b>showArticlePwdForm</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ArticleProcessorTestCase.showAuthorArticles()'><b>showAuthorArticles</b><br>Test class: org.b3log.solo.processor.ArticleProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ArticleProcessorTestCase@79698539</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.ErrorProcessorTestCase.showErrorPage()'><b>showErrorPage</b><br>Test class: org.b3log.solo.processor.ErrorProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.ErrorProcessorTestCase@dfd3711</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.LoginProcessorTestCase.showForgot()'><b>showForgot</b><br>Test class: org.b3log.solo.processor.LoginProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.LoginProcessorTestCase@3b81a1bc</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.IndexProcessorTestCase.showIndex()'><b>showIndex</b><br>Test class: org.b3log.solo.processor.IndexProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.IndexProcessorTestCase@26ba2a48</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.StatProcessorTestCase.showIndex()'><b>showIndex</b><br>Test class: org.b3log.solo.processor.StatProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.StatProcessorTestCase@4e04a765</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.InitProcessorTestCase.showInit()'><b>showInit</b><br>Test class: org.b3log.solo.processor.InitProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.InitProcessorTestCase@5f2050f6</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.IndexProcessorTestCase.showKillBrowser()'><b>showKillBrowser</b><br>Test class: org.b3log.solo.processor.IndexProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.IndexProcessorTestCase@26ba2a48</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.LoginProcessorTestCase.showLogin()'><b>showLogin</b><br>Test class: org.b3log.solo.processor.LoginProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.LoginProcessorTestCase@3b81a1bc</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.PageProcessorTestCase.showPage()'><b>showPage</b><br>Test class: org.b3log.solo.processor.PageProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.PageProcessorTestCase@64616ca2</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.TagProcessorTestCase.showTagArticles()'><b>showTagArticles</b><br>Test class: org.b3log.solo.processor.TagProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.TagProcessorTestCase@783e6358</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.FeedProcessorTestCase.tagArticlesAtom()'><b>tagArticlesAtom</b><br>Test class: org.b3log.solo.processor.FeedProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.FeedProcessorTestCase@42d3bd8b</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.FeedProcessorTestCase.tagArticlesRSS()'><b>tagArticlesRSS</b><br>Test class: org.b3log.solo.processor.FeedProcessorTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.FeedProcessorTestCase@42d3bd8b</td></tr>
+<tr>
+<td title='org.b3log.solo.processor.console.CategoryConsoleTestCase.updateCategory()'><b>updateCategory</b><br>Test class: org.b3log.solo.processor.console.CategoryConsoleTestCase</td>
+<td></td>
+<td>0</td>
+<td>org.b3log.solo.processor.console.CategoryConsoleTestCase@17550481</td></tr>
+</table><p>
+</body>
+</html>

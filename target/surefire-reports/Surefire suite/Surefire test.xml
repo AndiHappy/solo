@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="bogon" name="org.b3log.solo.service.ArchiveDateQueryServiceTestCase" tests="7" failures="0" timestamp="8 May 2017 12:31:13 GMT" time="1.743" errors="0">
+  <testcase name="init" time="0.675" classname="org.b3log.solo.service.ArchiveDateQueryServiceTestCase"/>
+  <testcase name="getArchiveDates" time="0.004" classname="org.b3log.solo.service.ArchiveDateQueryServiceTestCase"/>
+  <testcase name="getByArchiveDateString" time="0.002" classname="org.b3log.solo.service.ArchiveDateQueryServiceTestCase"/>
+  <testcase name="matchDefaultArticlePermalinkFormat" time="0.0" classname="org.b3log.solo.service.PermalinkQueryServiceTestCase"/>
+  <testcase name="matchDefaultPagePermalinkFormat" time="0.001" classname="org.b3log.solo.service.PermalinkQueryServiceTestCase"/>
+  <testcase name="toHTML" time="0.3" classname="org.b3log.solo.util.MarkdownsTestCase"/>
+  <testcase name="getGravatarURL" time="0.0" classname="org.b3log.solo.util.ThumbnailsTestCase"/>
+</testsuite>
