@@ -1,3 +1,7 @@
 [INFO ]-[2017-05-08 18:34:32]-[org.b3log.solo.Starter:145]: Standalone mode, see [https://github.com/b3log/solo/issues/12037] for more details.
 [INFO ]-[2017-05-08 18:34:33]-[com.alibaba.druid.pool.DruidDataSource:785]: {dataSource-1} inited
 [INFO ]-[2017-05-08 18:34:33]-[org.b3log.solo.SoloServletListener:150]: Solo is running [http://localhost:8080]
+[INFO ]-[2017-05-11 10:30:12]-[org.b3log.solo.Starter:145]: Standalone mode, see [https://github.com/b3log/solo/issues/12037] for more details.
+[INFO ]-[2017-05-11 10:30:13]-[com.alibaba.druid.pool.DruidDataSource:785]: {dataSource-1} inited
+[INFO ]-[2017-05-11 10:30:13]-[org.b3log.solo.SoloServletListener:150]: Solo is running [http://localhost:8080]
+[INFO ]-[2017-05-11 10:30:40]-[org.b3log.solo.event.rhythm.ArticleSender:111]: Solo runs on local server, so should not send this article[id=1494469840166, title=ceshi] to Rhythm

@@ -15,10 +15,10 @@
         <div class="tip tip-msg"><span id="tipMsg"></span></div>
         <div id="allPanel">
             <div id="top">
-                <a href="http://b3log.org" target="_blank" class="hover">
+               <!-- <a href="http://b3log.org" target="_blank" class="hover">
                     Solo
-                </a>
-               
+                </a> -->
+                后台管理系统
                 <span class="right"> 
                     <a href="${servePath}" title='${indexLabel}'>${indexLabel}</a><a href='javascript:admin.logout();' title='${logoutLabel}'>${logoutLabel}</a>
                 </span>
