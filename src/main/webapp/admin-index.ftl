@@ -18,7 +18,9 @@
                <!-- <a href="http://b3log.org" target="_blank" class="hover">
                     Solo
                 </a> -->
-                后台管理系统
+                <a href="" target="" class="hover">
+                   后台管理系统
+                </a>
                 <span class="right"> 
                     <a href="${servePath}" title='${indexLabel}'>${indexLabel}</a><a href='javascript:admin.logout();' title='${logoutLabel}'>${logoutLabel}</a>
                 </span>
